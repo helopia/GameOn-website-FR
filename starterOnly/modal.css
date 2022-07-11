@@ -99,7 +99,7 @@ img {
     display: block;
     margin-top: -15px;
   }
-} 
+}
 
 main {
   font-size: 130%;
@@ -226,7 +226,7 @@ input {
 .formData[data-error-visible="true"] .text-control {
   border: 2px solid #e54858;
 }
-/* 
+/*
 input[data-error]::after {
     content: attr(data-error);
     font-size: 0.4em;
@@ -300,27 +300,13 @@ input[data-error]::after {
   position: absolute;
   right: 15px;
   top: 15px;
-  width: 32px;
-  height: 32px;
-  opacity: 1;
+  color: white;
   cursor: pointer;
-  transform: scale(0.7);
+  background-color: transparent;
+  border: none;
+  font-size: larger;
 }
-.close:before,
-.close:after {
-  position: absolute;
-  left: 15px;
-  content: " ";
-  height: 33px;
-  width: 3px;
-  background-color: #fff;
-}
-.close:before {
-  transform: rotate(45deg);
-}
-.close:after {
-  transform: rotate(-45deg);
-}
+
 .btn-submit,
 .btn-signup {
   background: #fe142f;
