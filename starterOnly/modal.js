@@ -15,7 +15,7 @@ function refresh() {
 // DOM Elements
 const modalbg = document.querySelector(".bground");
 const modalBtn = document.querySelectorAll(".modal-btn");
-const formData = document.querySelectorAll(".formData");
+// const formData = document.querySelectorAll(".formData");
 const closeModal = document.querySelector(".close");
 const btnValidate = document.querySelector(".btn-submit");
 
@@ -29,7 +29,7 @@ const birthdate = document.querySelector("#birthdate");
 const quantity = document.querySelector("#quantity");
 let checkboxes = document.querySelectorAll(".checkbox-input");
 let arrayCheckboxes = Array.from(checkboxes);
-const elementsForm = document.querySelectorAll("div.formData > input");
+// const elementsForm = document.querySelectorAll("div.formData > input");
 const checkboxConditions = document.getElementById("checkbox1");
 const today = new Date().toISOString().split('T')[0];
 
